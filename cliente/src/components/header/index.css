@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+.listaBotonesHeader {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nombre span {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+@media screen and (max-width: 350px) {
+    .nombre span {
+        font-size: 1em;
+    }
+}
+    
