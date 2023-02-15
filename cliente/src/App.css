@@ -13,6 +13,18 @@
   }
 }
 
+@font-face {
+    font-family: "Petillas";
+    src:local("InstagramSansScriptBold"),
+    url("./components/fonts/InstagramSansScriptBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Petillas2";
+  src:local("InstagramSansScript"),
+  url("./components/fonts/InstagramSansScript.ttf") format("truetype");
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

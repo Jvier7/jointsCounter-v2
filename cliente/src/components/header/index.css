@@ -2,24 +2,34 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
+    height: 11%;
     align-items: center;
-    padding: 1%;
+    justify-content: space-between;
+    background-color: #f5f5f5;
 }
 
 .listaBotonesHeader {
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin-top: 10px;
 }
 
-.nombre span {
-    font-size: 2em;
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    font-family: "Petillas";
+}
+
+.titulo span {
+    font-size: 1.7em;
     font-weight: bold;
     color: black;
 }
 @media screen and (max-width: 350px) {
-    .nombre span {
+    .titulo span {
         font-size: 1em;
     }
 }

@@ -7,8 +7,8 @@ function Header() {
     return (
         <>
             <div className="header">
-                <div className="nombre">
-                    <span>Joints Counter</span>
+                <div className="titulo">
+                    <span className="titulo">Joints Counter</span>
                 </div>
                 <div className="botones">
                     <ul className="listaBotonesHeader">

@@ -5,7 +5,9 @@ function Home() {
 
     return (
         <>
-        <h1>Welcome Hijoputa</h1>
+            <div>
+                <img src="./assets/fondo.png" className="fondo"/>
+            </div>
         </>
     );
 }

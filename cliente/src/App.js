@@ -4,6 +4,8 @@ import Home from "./components/home";
 import Ranking from "./components/ranking";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import "./components/fonts/InstagramSansScript.ttf";
+import "./components/fonts/InstagramSansScriptBold.ttf";
 
 function App() {
   return (
